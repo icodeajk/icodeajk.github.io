@@ -2,14 +2,18 @@
 layout: page
 title: About
 permalink: /about/
+published: true
 ---
 
-Some information about you!
 
-### More Information
+### About Me
 
-A place to include any other types of information that you'd like to include about yourself.
+	本人现在大三学生一名，程序员&寝室蹲，想往前端方面发展，正在苦逼的找实习。。。。。
+
+	性格比较内向，对某样事下定了决心又会比较固执，有优点，有缺点，不神经质，不喝酒不抽烟（简直是好学生典范啊！！！）
+    
+    喜欢玩的游戏有LOL，炉石传说，话说当初拉我玩这两个游戏的室友早就弃坑了。。。。。，不喜欢玩手游，觉得无聊（既没有端游好玩，又容易玩腻）
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[1181674815@qq.com](mailto:1181674815@qq.com)
