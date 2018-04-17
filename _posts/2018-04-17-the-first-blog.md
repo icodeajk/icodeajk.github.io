@@ -1,5 +1,6 @@
 ---
 published: false
+layout: post
 ---
 ## CSS居中的方式
 
@@ -182,4 +183,4 @@ published: false
     width: 400px;
 }
 
-来自 <https://segmentfault.com/a/1190000013966650?utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com&share_user=1030000000178452> 
+来自 <https://segmentfault.com/a/1190000013966650?utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com&share_user=1030000000178452>
