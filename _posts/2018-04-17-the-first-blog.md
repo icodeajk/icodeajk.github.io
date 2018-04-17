@@ -8,7 +8,7 @@ title: CSS居中的方式
 #### 1.1 内联元素水平居中
 利用 text-align: center 可以实现在块级元素内部的内联元素水平居中。此方法对内联元素(inline), 内联块(inline-block), 内联表(inline-table), inline-flex元素水平居中都有效。
 核心代码：
-``css
+``
 .center-text {
     text-align: center;
  }
@@ -16,7 +16,7 @@ title: CSS居中的方式
 #### 1.2 块级元素水平居中
 通过把固定宽度块级元素的margin-left和margin-right设成auto，就可以使块级元素水平居中。
 核心代码：
-``css
+``
 .center-block {
   margin: 0 auto;
 }
@@ -25,7 +25,7 @@ title: CSS居中的方式
 1.3.1 利用inline-block 
 如果一行中有两个或两个以上的块级元素，通过设置块级元素的显示类型为inline-block和父容器的text-align属性从而使多块级元素水平居中。
 核心代码：
-``css
+``
 .container {
     text-align: center;
 }
@@ -36,7 +36,7 @@ title: CSS居中的方式
 1.3.2 利用display: flex 
 利用弹性布局(flex)，实现水平居中，其中justify-content 用于设置弹性盒子元素在主轴（横轴）方向上的对齐方式，本例中设置子元素水平居中显示。
 核心代码：
-``css
+``
 .flex-center {
     display: flex;
     justify-content: center;
@@ -46,7 +46,7 @@ title: CSS居中的方式
 #### 2.1 单行内联(inline-)元素垂直居中
 通过设置内联元素的高度(height)和行高(line-height)相等，从而使元素垂直居中。
 核心代码：
-``css
+``
 #v-box {
     height: 120px;
     line-height: 120px;
@@ -56,7 +56,7 @@ title: CSS居中的方式
 2.2.1 利用表布局（table）
 利用表布局的vertical-align: middle可以实现子元素的垂直居中。
 核心代码：
-``css
+``
 .center-table {
     display: table;
 }
@@ -68,7 +68,7 @@ title: CSS居中的方式
 2.2.2 利用flex布局（flex）
 利用flex布局实现垂直居中，其中flex-direction: column定义主轴方向为纵向。因为flex布局是CSS3中定义，在较老的浏览器存在兼容性问题。
 核心代码：
-``css
+``
 .center-flex {
     display: flex;
     flex-direction: column;
@@ -78,7 +78,7 @@ title: CSS居中的方式
 2.2.3 利用“精灵元素”
 利用“精灵元素”(ghost element)技术实现垂直居中，即在父容器内放一个100%高度的伪元素，让文本和伪元素垂直对齐，从而达到垂直居中的目的。
 核心代码：
-``css
+``
 .ghost-center {
     position: relative;
 }
@@ -99,7 +99,7 @@ title: CSS居中的方式
 2.3.1 固定高度的块级元素
 我们知道居中元素的高度和宽度，垂直居中问题就很简单。通过绝对定位元素距离顶部50%，并设置margin-top向上偏移元素高度的一半，就可以实现垂直居中了。
 核心代码：
-``css
+``
 .parent {
   position: relative;
 }
@@ -113,7 +113,7 @@ title: CSS居中的方式
 2.3.2 未知高度的块级元素
 当垂直居中的元素的高度和宽度未知时，我们可以借助CSS3中的transform属性向Y轴反向偏移50%的方法实现垂直居中。但是部分浏览器存在兼容性的问题。
 核心代码：
-``css
+``
 .parent {
     position: relative;
 }
@@ -127,7 +127,7 @@ title: CSS居中的方式
 #### 3.1 固定宽高元素水平垂直居中
 通过margin平移元素整体宽度的一半，使元素水平垂直居中。
 核心代码：
-``css
+``
 .parent {
     position: relative;
 }
@@ -144,7 +144,7 @@ title: CSS居中的方式
 #### 3.2 未知宽高元素水平垂直居中
 利用2D变换，在水平和垂直两个方向都向反向平移宽高的一半，从而使元素水平垂直居中。
 核心代码：
-``css
+``
 .parent {
     position: relative;
 }
@@ -158,7 +158,7 @@ title: CSS居中的方式
 #### 3.3 利用flex布局
 利用flex布局，其中justify-content 用于设置或检索弹性盒子元素在主轴（横轴）方向上的对齐方式；而align-items属性定义flex子项在flex容器的当前行的侧轴（纵轴）方向上的对齐方式。
 核心代码：
-``css
+``
 .parent {
     display: flex;
     justify-content: center;
@@ -168,7 +168,7 @@ title: CSS居中的方式
 #### 3.4 利用grid布局
 利用grid实现水平垂直居中，兼容性较差，不推荐。
 核心代码：
-``css
+``
 .parent {
   height: 140px;
   display: grid;
@@ -180,7 +180,7 @@ title: CSS居中的方式
 #### 3.5 屏幕上水平垂直居中
 屏幕上水平垂直居中十分常用，常规的登录及注册页面都需要用到。要保证较好的兼容性，还需要用到表布局。
 核心代码：
-``css
+``
 .outer {
     display: table;
     position: absolute;
