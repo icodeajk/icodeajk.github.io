@@ -1,9 +1,8 @@
 ---
 published: true
 layout: post
+title: CSS居中的方式
 ---
-## CSS居中的方式
-
 
 ### 1 水平居中
 #### 1.1 内联元素水平居中
