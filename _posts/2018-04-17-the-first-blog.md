@@ -1,4 +1,4 @@
-﻿---
+---
 published: true
 layout: post
 title: CSS居中的方式
